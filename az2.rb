@@ -30,7 +30,7 @@ get '/' do
 		  and then continued to rise its spirits into the holy codelands,
 		  without any ramtop.
       <br/><br/>
-      Brave knights of the various orders, those of functional, those of
+      Dauntless knights of the various orders, those of functional, those of
       procedural and those who dare inscript ancient objects, and 
       those who most profoundly assemble long forgotten mnemonics,
       you should dare to announce your noble intentions of approaching 
