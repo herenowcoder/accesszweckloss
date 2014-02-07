@@ -21,7 +21,8 @@ get '/' do
 		</p>
 		<p style='margin: 30px 200px; color: #eee'>
 		  Here is the message for the brave. Ones who do not fear meeting
-		  mind dragons of their own, are warmly invited to honor the usual hacker
+		  mind dragons of their own, are warmly invited today, on the seventh
+		  day of the shortest of all months, to honor the usual hacker
 		  shrine on the fields of Sadyba, dispossessing their anxiety and
 		  guiding their hearts to the inner coder sanctvm.
       <br/><br/>
