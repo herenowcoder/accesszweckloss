@@ -1,5 +1,16 @@
 require 'sinatra'
 
+def rand_color()
+  "rgb(#{(1..3).map{|x|rand(200)+100}.join(',')})"
+end
+
+def magic_word(text)
+  text.split('').map do |char|
+    "<span style='color:#{rand_color}'>#{char}</span>"
+  end.join
+end
+
+
 get '/az2' do
   redirect to('/'), 303
 end
@@ -17,7 +28,7 @@ get '/' do
   </head>
 	<body bgcolor='#000'>
 		<p style='text-align:center; margin-top: 50px'>
-		  access zweckloss #2
+		  #{magic_word 'access zweckloss #2'}
 		</p>
 		<p style='margin: 30px 200px; color: #eee'>
 		  Here is the message for the brave. Ones who do not fear meeting
