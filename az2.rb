@@ -10,6 +10,22 @@ def magic_word(text)
   end.join
 end
 
+def refresh_magic()
+  """
+      $(document).ready(function(){
+        var delay = 3000;
+        var loop = function(){
+          $('#magic').load('/-/magic');
+          setTimeout(loop, delay);
+        };
+        setTimeout(loop, delay);
+      });
+  """
+end
+
+get '/-/magic' do
+  magic_word 'access zweckloss #2'
+end
 
 get %r[^/az2/?$] do
   redirect to('/'), 303
@@ -20,6 +36,7 @@ get '/' do
 <html>
   <head>
     <link rel='stylesheet' href='/zx.css' type='text/css' />
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'></script>
     <style>
       body {
         color: #eee;
@@ -27,7 +44,7 @@ get '/' do
     </style>
   </head>
 	<body bgcolor='#000'>
-		<p style='text-align:center; margin-top: 50px'>
+		<p id='magic' style='text-align:center; margin-top: 50px'>
 		  #{magic_word 'access zweckloss #2'}
 		</p>
 		<p style='margin: 30px 200px'>
@@ -59,7 +76,8 @@ get '/' do
       <br/><br/>
 		  Now is all said what should be said. RSVP if you dare.
 		</p>
-	</body>
+    <script>#{refresh_magic}</script>
+  </body>
 </html>
 	"""
 end
