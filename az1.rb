@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/az1' do
+get %r[^/az1/?$] do
 	"""
 <html>
 	<body bgcolor='#000'>

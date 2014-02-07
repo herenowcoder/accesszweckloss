@@ -11,7 +11,7 @@ def magic_word(text)
 end
 
 
-get '/az2' do
+get %r[^/az2/?$] do
   redirect to('/'), 303
 end
 
