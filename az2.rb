@@ -22,7 +22,7 @@ get '/' do
     <link rel='stylesheet' href='/zx.css' type='text/css' />
     <style>
       body {
-        color: #eee;
+        color: #ddd;
         font-family: zx, Monospace;
     </style>
   </head>
