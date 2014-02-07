@@ -35,6 +35,7 @@ get '/' do
 	"""
 <html>
   <head>
+    <title>az#2 cpy party</title>
     <link rel='stylesheet' href='/zx.css' type='text/css' />
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js'></script>
     <style>
