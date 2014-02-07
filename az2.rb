@@ -32,7 +32,7 @@ get %r[^/az2/?$] do
 end
 
 get '/' do
-	"""
+  """
 <html>
   <head>
     <title>az#2 cpy party</title>
@@ -44,20 +44,20 @@ get '/' do
         font-family: zx, Monospace;
     </style>
   </head>
-	<body bgcolor='#000'>
-		<p id='magic' style='text-align:center; margin-top: 50px'>
-		  #{magic_word 'access zweckloss #2'}
-		</p>
-		<p style='margin: 30px 200px'>
-		  Here is the message for the brave. Ones who do not fear meeting
-		  mind dragons of their own, are warmly invited today, on the seventh
-		  day of the shortest of all months, to honor the usual hacker
-		  shrine on the fields of Sadyba, dispossessing their anxiety and
-		  guiding their hearts to the inner coder sanctvm.
+  <body bgcolor='#000'>
+    <p id='magic' style='text-align:center; margin-top: 50px'>
+      #{magic_word 'access zweckloss #2'}
+    </p>
+    <p style='margin: 30px 200px'>
+      Here is the message for the brave. Ones who do not fear meeting
+      mind dragons of their own, are warmly invited today, on the seventh
+      day of the shortest of all months, to honor the usual hacker
+      shrine on the fields of Sadyba, dispossessing their anxiety and
+      guiding their hearts to the inner coder sanctvm.
       <br/><br/>
-		  Three hours before midnight the gathering is to be formed,
-		  and then continued to rise its spirits into the holy codelands,
-		  without any ramtop.
+      Three hours before midnight the gathering is to be formed,
+      and then continued to rise its spirits into the holy codelands,
+      without any ramtop.
       <br/><br/>
       Dauntless knights of the various orders, those of functional, those of
       procedural and those who dare inscript ancient objects, and 
@@ -75,12 +75,12 @@ get '/' do
       proclamation was crafted using most powerful yet antique artifact,
       emerged from the powers of the old ways: the vi one.
       <br/><br/>
-		  Now is all said what should be said. RSVP if you dare.
-		</p>
+      Now is all said what should be said. RSVP if you dare.
+    </p>
     <script>#{refresh_magic}</script>
   </body>
 </html>
-	"""
+  """
 end
 
 
