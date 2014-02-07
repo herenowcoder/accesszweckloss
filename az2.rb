@@ -37,7 +37,7 @@ get '/' do
 		  shrine on the fields of Sadyba, dispossessing their anxiety and
 		  guiding their hearts to the inner coder sanctvm.
       <br/><br/>
-		  At the five hours before midnight the gathering is to be formed,
+		  Three hours before midnight the gathering is to be formed,
 		  and then continued to rise its spirits into the holy codelands,
 		  without any ramtop.
       <br/><br/>
