@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '/' do
+get '/az1' do
 	"""
 <html>
 	<body bgcolor='#000'>
