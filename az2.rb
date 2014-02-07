@@ -42,7 +42,7 @@ get '/' do
       given a merciful share of what yielded from local herbs around
       the sacred area.
       <br/><br/>
-      For any heroes interested in the ways of holy scriptures, this
+      For any heroes wandering the ways of holy scriptures, this
       proclamation was crafted using most powerful yet antique artifact,
       emerged from the powers of the old ways: the vi one.
       <br/><br/>
