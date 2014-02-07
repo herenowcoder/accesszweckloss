@@ -30,7 +30,7 @@ get '/' do
 		<p style='text-align:center; margin-top: 50px'>
 		  #{magic_word 'access zweckloss #2'}
 		</p>
-		<p style='margin: 30px 200px; color: #eee'>
+		<p style='margin: 30px 200px'>
 		  Here is the message for the brave. Ones who do not fear meeting
 		  mind dragons of their own, are warmly invited today, on the seventh
 		  day of the shortest of all months, to honor the usual hacker
