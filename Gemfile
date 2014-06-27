@@ -5,4 +5,5 @@ gem 'sinatra'
 
 group :development do
   gem 'sinatra-contrib' # for reloader
+  gem 'heroku'
 end
